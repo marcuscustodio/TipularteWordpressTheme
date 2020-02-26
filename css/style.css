@@ -1,0 +1,1123 @@
+/*cores*/
+/*fonts*/
+/*size*/
+body {
+  background-color: #272727;
+  font-family: "Montserrat", sans-serif; }
+
+body.page-a-empresa header, body.page-clientes-e-parceiros header {
+  background-image: url("../img/kids.jpg"); }
+
+body.page-servicos header {
+  background-image: url("../img/cara-pintada.jpg"); }
+
+body.page-blog header {
+  background-image: url("../img/rindo.jpg"); }
+
+header {
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 769px;
+  background-size: cover; }
+  header .logo {
+    display: flex;
+    width: 290px;
+    height: 80px; }
+  header .content-header {
+    display: flex;
+    width: 100%; }
+    header .content-header .nav {
+      display: flex;
+      float: right;
+      margin-top: 30px;
+      width: 100%;
+      justify-content: flex-end; }
+      header .content-header .nav #toggle {
+        display: none; }
+      header .content-header .nav label {
+        color: #fff;
+        display: none; }
+      header .content-header .nav .menu {
+        list-style: none;
+        display: flex; }
+        header .content-header .nav .menu a {
+          color: #fff;
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          font-size: 18px;
+          margin: 0 10px;
+          text-decoration: none; }
+          header .content-header .nav .menu a:hover {
+            color: #F98E01; }
+
+.servicos {
+  background-image: url("../img/bg-planeta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 80px 0; }
+  .servicos h2 {
+    font-size: 40px;
+    color: #F98E01;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Luckiest Guy", cursive; }
+  .servicos p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center; }
+  .servicos .container-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .servicos .container-servicos .tipo-servico {
+      margin: 20px 15px;
+      width: 22%;
+      display: flex;
+      border: 2px solid #fff;
+      border-radius: 20px; }
+      .servicos .container-servicos .tipo-servico a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none; }
+        .servicos .container-servicos .tipo-servico a img {
+          margin: 20px 0;
+          width: 76px;
+          height: 76px; }
+        .servicos .container-servicos .tipo-servico a h3 {
+          color: #F98E01;
+          font-size: 22px;
+          text-transform: uppercase;
+          font-family: "Luckiest Guy", cursive; }
+        .servicos .container-servicos .tipo-servico a p {
+          font-size: 16px;
+          color: #fff;
+          font-weight: bold;
+          padding: 10px 10px 20px; }
+      .servicos .container-servicos .tipo-servico:hover {
+        background-color: #FFBE28;
+        border-color: #FFBE28; }
+        .servicos .container-servicos .tipo-servico:hover a h3 {
+          color: #006AB7; }
+        .servicos .container-servicos .tipo-servico:hover a p {
+          color: #006AB7; }
+
+/*avaliacoes*/
+.avaliacoes {
+  background-image: url("../img/bg-planeta.jpg");
+  padding: 80px 0; }
+  .avaliacoes h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Luckiest Guy", cursive;
+    color: #F98E01;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .avaliacoes .box-avaliacoes {
+    background-image: url("../img/bg-testemunho.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 60px 0 120px 0;
+    background-size: cover; }
+    .avaliacoes .box-avaliacoes #slide-avaliacoes .carousel-indicators {
+      bottom: -30px; }
+      .avaliacoes .box-avaliacoes #slide-avaliacoes .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #006AB7;
+        opacity: .6; }
+      .avaliacoes .box-avaliacoes #slide-avaliacoes .carousel-indicators .active {
+        background-color: #D6272B;
+        opacity: 1; }
+    .avaliacoes .box-avaliacoes #slide-avaliacoes .carousel-inner {
+      display: flex; }
+      .avaliacoes .box-avaliacoes #slide-avaliacoes .carousel-inner .carousel-item img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 2px solid #D6272B;
+        display: flex;
+        margin: 0 auto; }
+      .avaliacoes .box-avaliacoes #slide-avaliacoes .carousel-inner .carousel-item h3 {
+        font-size: 22px;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        text-align: center;
+        margin: 20px 0; }
+      .avaliacoes .box-avaliacoes #slide-avaliacoes .carousel-inner .carousel-item p {
+        font-size: 22px;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        text-align: center; }
+
+/*bloguinho*/
+.bloguinho {
+  background-image: url("../img/bg-planeta.jpg"); }
+  .bloguinho h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Luckiest Guy", cursive;
+    color: #F98E01;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .bloguinho .container-bloguinho {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between; }
+    .bloguinho .container-bloguinho .box {
+      width: 246px;
+      height: 340px;
+      border-radius: 10px; }
+      .bloguinho .container-bloguinho .box img {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        width: 100%;
+        height: 250px;
+        width: 246px; }
+      .bloguinho .container-bloguinho .box .text {
+        background-color: #FFDC47;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px; }
+        .bloguinho .container-bloguinho .box .text h3 {
+          font-family: "Luckiest Guy", cursive;
+          font-size: 22px;
+          padding: 20px 10px;
+          text-align: center; }
+          .bloguinho .container-bloguinho .box .text h3 a {
+            text-decoration: none;
+            color: #A64AC9; }
+            .bloguinho .container-bloguinho .box .text h3 a:hover {
+              color: #006AB7; }
+
+/*contato*/
+#bg-contato {
+  background-image: url("../img/bg-planeta.jpg"); }
+
+.contato {
+  padding: 120px 0;
+  background-image: url("../img/bg-contato.svg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .contato h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Luckiest Guy", cursive;
+    color: #FFDC47;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .contato .informacoes {
+    display: flex;
+    flex-direction: column; }
+    .contato .informacoes .tel,
+    .contato .informacoes .email,
+    .contato .informacoes .face {
+      flex-direction: row;
+      display: flex;
+      margin: 10px 0; }
+      .contato .informacoes .tel img,
+      .contato .informacoes .email img,
+      .contato .informacoes .face img {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px; }
+      .contato .informacoes .tel p,
+      .contato .informacoes .email p,
+      .contato .informacoes .face p {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff; }
+      .contato .informacoes .tel a,
+      .contato .informacoes .email a,
+      .contato .informacoes .face a {
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none; }
+  .contato .form-contato .responsavel,
+  .contato .form-contato .nome-crianca,
+  .contato .form-contato .idade,
+  .contato .form-contato .data,
+  .contato .form-contato .local,
+  .contato .form-contato .cidade,
+  .contato .form-contato .telefone,
+  .contato .form-contato .email {
+    height: 45px;
+    width: 280px;
+    border-radius: 28px;
+    border: 2px solid #A64AC9;
+    margin: 7px 0;
+    font-size: 16px;
+    color: #055556;
+    font-family: "Luckiest Guy", cursive;
+    padding: 0 10px; }
+  .contato .form-contato ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 16px;
+    color: #055556;
+    font-family: "Luckiest Guy", cursive;
+    padding: 0 10px; }
+  .contato .form-contato ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 16px;
+    color: #055556;
+    font-family: "Luckiest Guy", cursive;
+    padding: 0 10px; }
+  .contato .form-contato :-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 16px;
+    color: #055556;
+    font-family: "Luckiest Guy", cursive;
+    padding: 0 10px; }
+  .contato .form-contato :-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 16px;
+    color: #055556;
+    font-family: "Luckiest Guy", cursive;
+    padding: 0 10px; }
+  .contato .form-contato textarea {
+    padding: 10px 10px;
+    width: 570px;
+    height: 150px;
+    border: 2px solid #A64AC9;
+    border-radius: 28px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #055556;
+    font-family: "Luckiest Guy", cursive; }
+  .contato .form-contato .enviar {
+    background-color: #FFDC47;
+    border: 2px solid #A64AC9;
+    border-radius: 28px;
+    width: 215px;
+    height: 48px;
+    font-size: 16px;
+    color: #055556;
+    font-family: "Luckiest Guy", cursive;
+    float: right;
+    margin-right: 65px; }
+    .contato .form-contato .enviar:hover {
+      cursor: pointer; }
+
+footer {
+  background-color: #790E9F;
+  height: 90px;
+  clear: both; }
+  footer .copy, footer .assinatura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px; }
+  footer .copy p {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase; }
+  footer .assinatura a {
+    text-decoration: none;
+    color: #fff; }
+    footer .assinatura a p {
+      font-size: 16px;
+      text-transform: uppercase; }
+
+/*empresa*/
+.sobre {
+  background-image: url("../img/bg-planeta.jpg");
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  background-size: cover; }
+  .sobre h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #F98E01;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center; }
+  .sobre p {
+    color: #fff;
+    font-size: 22px;
+    text-align: center; }
+  .sobre .descricao {
+    padding-top: 50px; }
+    .sobre .descricao p {
+      color: #fff;
+      font-size: 22px;
+      text-align: left;
+      line-height: 39px; }
+
+/*empresa-equipe*/
+.equipe {
+  padding: 80px 0;
+  background-image: url("../img/bg-testemunho.svg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .equipe h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #A64AC9;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center;
+    margin-bottom: 50px; }
+  .equipe .img-equipe img {
+    border: 4px solid #A64AC9;
+    border-radius: 20px; }
+  .equipe .texto-equipe {
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    .equipe .texto-equipe p {
+      font-size: 22px;
+      line-height: 39px;
+      width: 80%;
+      font-weight: 500; }
+
+.post-equipe {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .post-equipe p {
+    text-align: justify; }
+
+/*empresa-tripularte*/
+.tripularte {
+  background-color: #FFDC47;
+  padding: 80px 0; }
+  .tripularte h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #A64AC9;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center;
+    margin-bottom: 50px; }
+  .tripularte .desc p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 39px;
+    width: 650px; }
+  .tripularte .img-renata img {
+    position: absolute;
+    top: 50px;
+    z-index: 1; }
+
+#bg-contato-empresa {
+  background-color: #FFDC47; }
+  #bg-contato-empresa .contato {
+    position: relative;
+    z-index: 2; }
+
+/*servicos*/
+.servicos-page {
+  padding: 80px 0;
+  background-color: #006AB7;
+  display: flex; }
+  .servicos-page .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column; }
+  .servicos-page h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FFDC47;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center; }
+  .servicos-page p {
+    font-size: 22px;
+    line-height: 39px;
+    text-align: center;
+    color: #fff; }
+  .servicos-page .destaque {
+    background-color: #fff;
+    border-radius: 85px;
+    -webkit-box-shadow: -10px 10px 0px 3px #fccd04;
+    -moz-box-shadow: -10px 10px 0px 3px #fccd04;
+    box-shadow: -10px 10px 0px 3px #fccd04;
+    margin: 80px 0; }
+    .servicos-page .destaque .servicos-text .titulo {
+      color: #006AB7;
+      font-size: 60px;
+      font-family: "Luckiest Guy", cursive;
+      text-transform: uppercase;
+      padding: 40px; }
+    .servicos-page .destaque .servicos-text p {
+      font-size: 16px;
+      color: #000;
+      text-align: left;
+      padding: 0 40px; }
+    .servicos-page .destaque .servicos-img img {
+      display: none; }
+    .servicos-page .destaque .video {
+      display: flex;
+      justify-content: center; }
+      .servicos-page .destaque .video iframe {
+        margin: 40px; }
+  .servicos-page .direita {
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+    border-radius: 30px 0 30px 0; }
+    .servicos-page .direita .servicos-text {
+      display: flex;
+      flex-direction: column;
+      width: 55%;
+      display: flex;
+      float: left; }
+      .servicos-page .direita .servicos-text .titulo {
+        color: #006AB7;
+        font-size: 60px;
+        font-family: "Luckiest Guy", cursive;
+        text-transform: uppercase;
+        padding: 40px 0 20px 40px; }
+      .servicos-page .direita .servicos-text p {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: left;
+        color: #000;
+        padding-left: 40px; }
+      .servicos-page .direita .servicos-text .lista {
+        position: relative; }
+        .servicos-page .direita .servicos-text .lista li {
+          list-style: none;
+          display: flex;
+          color: #006AB7;
+          font-size: #006AB7;
+          font-weight: bold;
+          line-height: 30px; }
+          .servicos-page .direita .servicos-text .lista li:before {
+            content: "";
+            position: relative;
+            top: 5px;
+            left: -5px;
+            width: 15px;
+            height: 15px;
+            background-color: #FFBE28;
+            display: block;
+            border-radius: 50%; }
+    .servicos-page .direita .servicos-img {
+      width: 40%;
+      display: flex;
+      float: right;
+      margin-top: 60px;
+      justify-content: flex-end; }
+      .servicos-page .direita .servicos-img img {
+        width: 320px;
+        height: 275px;
+        border-radius: 30px 0 30px 0; }
+    .servicos-page .direita .video {
+      display: none; }
+  .servicos-page .esquerda {
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+    border-radius: 0 30px 0 30px; }
+    .servicos-page .esquerda .servicos-text {
+      display: flex;
+      flex-direction: column;
+      order: 2;
+      width: 55%;
+      display: flex;
+      float: right; }
+      .servicos-page .esquerda .servicos-text .titulo {
+        color: #006AB7;
+        font-size: 60px;
+        font-family: "Luckiest Guy", cursive;
+        text-transform: uppercase;
+        padding: 40px 0 20px 40px;
+        text-align: right; }
+      .servicos-page .esquerda .servicos-text p {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: right;
+        color: #000;
+        padding-left: 40px; }
+    .servicos-page .esquerda .servicos-img {
+      order: 1;
+      width: 40%;
+      display: flex;
+      float: left;
+      margin-top: 60px;
+      justify-content: flex-start;
+      padding-left: 40px; }
+      .servicos-page .esquerda .servicos-img img {
+        width: 320px;
+        height: 275px;
+        border-radius: 0 30px 0 30px; }
+    .servicos-page .esquerda .video {
+      display: none; }
+  .servicos-page .pequeno {
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 80px;
+    border-radius: 30px;
+    width: 350px;
+    float: left;
+    margin: 10px; }
+    .servicos-page .pequeno .servicos-text {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      order: 2; }
+      .servicos-page .pequeno .servicos-text .titulo {
+        color: #006AB7;
+        font-size: 45px;
+        font-family: "Luckiest Guy", cursive;
+        text-transform: uppercase;
+        padding: 20px;
+        text-align: center; }
+      .servicos-page .pequeno .servicos-text p {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        color: #000;
+        padding: 0 20px; }
+    .servicos-page .pequeno .servicos-img {
+      display: none; }
+    .servicos-page .pequeno .video {
+      display: none; }
+
+#bg-contato-servicos {
+  background-color: #006AB7; }
+
+/*clientes*/
+.clientes {
+  background-image: url("../img/bg-planeta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0; }
+  .clientes h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #F98E01;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center; }
+  .clientes .content-clientes {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .clientes .content-clientes .box {
+      width: 235px;
+      height: 235px; }
+      .clientes .content-clientes .box img {
+        border-radius: 25px; }
+
+.parceiros {
+  background-color: #FFDC47;
+  padding: 80px 0; }
+  .parceiros h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #A64AC9;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center; }
+  .parceiros .content-parceiros {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .parceiros .content-parceiros .box {
+      width: 235px;
+      height: 235px; }
+      .parceiros .content-parceiros .box img {
+        border-radius: 25px;
+        border: 2px solid #A64AC9; }
+
+#bg-contato-clientes {
+  background-color: #FFDC47; }
+
+/*equipe page*/
+.equipe-page {
+  background-image: url("../img/bg-equipe-page.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fccd04;
+  padding: 80px 0; }
+  .equipe-page h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #A64AC9;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center; }
+  .equipe-page .content-equipe {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .equipe-page .content-equipe .box {
+      width: 350px;
+      height: 350px;
+      margin: 20px 0; }
+      .equipe-page .content-equipe .box img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        max-width: 100%;
+        max-height: 300px; }
+      .equipe-page .content-equipe .box .nome {
+        width: 100%;
+        background-color: #A64AC9;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px; }
+        .equipe-page .content-equipe .box .nome h3 {
+          color: #FFDC47;
+          font-family: "Luckiest Guy", cursive;
+          font-size: 22px;
+          text-align: center;
+          padding: 20px 0; }
+          .equipe-page .content-equipe .box .nome h3 a {
+            color: #FFBE28; }
+            .equipe-page .content-equipe .box .nome h3 a:hover {
+              text-decoration: none;
+              cursor: pointer; }
+
+#bg-contato-equipe {
+  background-color: #FCCD04; }
+
+/*blog page*/
+.blog-page {
+  background-image: url("../img/bg-planeta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0; }
+  .blog-page h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FFDC47;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center; }
+  .blog-page .content-blog {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .blog-page .content-blog a {
+      text-decoration: none;
+      cursor: pointer;
+      margin: 50px 0; }
+      .blog-page .content-blog a .box {
+        width: 350px;
+        height: 350px; }
+        .blog-page .content-blog a .box img {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          max-width: 100%;
+          width: 350px;
+          height: 300px; }
+        .blog-page .content-blog a .box .nome {
+          width: 100%;
+          background-color: #FFDC47;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          padding-bottom: 20px;
+          height: 120px; }
+          .blog-page .content-blog a .box .nome h3 {
+            color: #A64AC9;
+            font-family: "Luckiest Guy", cursive;
+            font-size: 22px;
+            text-align: center;
+            padding: 10px 0;
+            margin: 0; }
+          .blog-page .content-blog a .box .nome button {
+            color: #fff;
+            background-color: #F98E01;
+            border: 0;
+            padding: 5px 20px;
+            border-radius: 20px;
+            font-family: "Luckiest Guy", cursive;
+            display: block;
+            margin: 0 auto; }
+            .blog-page .content-blog a .box .nome button:hover {
+              cursor: pointer; }
+
+.single-equipe {
+  padding: 0;
+  background-image: url("../img/bg-planeta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .single-equipe h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FFDC47;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center;
+    margin-top: 80px; }
+  .single-equipe h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-align: left; }
+  .single-equipe .content-post {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .single-equipe .content-post img {
+      padding: 20px 0; }
+    .single-equipe .content-post .share-post {
+      display: flex;
+      justify-content: center; }
+      .single-equipe .content-post .share-post a {
+        margin: 0 10px; }
+    .single-equipe .content-post p {
+      color: #fff;
+      line-height: 39px;
+      font-size: 18px; }
+      .single-equipe .content-post p img {
+        display: flex;
+        max-width: 100%;
+        margin: 0 auto; }
+
+/*single*/
+.single-post {
+  background-image: url("../img/bg-planeta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .single-post h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FFDC47;
+    font-family: "Luckiest Guy", cursive;
+    text-align: center;
+    margin-top: 80px; }
+  .single-post h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-align: left; }
+  .single-post .share {
+    margin-top: 40px; }
+    .single-post .share p {
+      height: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: bold; }
+    .single-post .share .social {
+      float: right;
+      display: flex;
+      align-items: center; }
+      .single-post .share .social .media {
+        margin: 0 10px; }
+  .single-post .content-post {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .single-post .content-post img {
+      padding: 20px 0; }
+    .single-post .content-post .share-post {
+      display: flex;
+      justify-content: center; }
+      .single-post .content-post .share-post a {
+        margin: 0 10px; }
+    .single-post .content-post p {
+      color: #fff;
+      line-height: 39px;
+      font-size: 18px; }
+      .single-post .content-post p img {
+        display: flex;
+        max-width: 100%;
+        margin: 0 auto; }
+
+/*RESPONSIVE MENU*/
+@media only screen and (max-width: 500px) {
+  /*header{
+   	.nav{
+   		label {
+        display: block;
+        cursor: pointer;
+    }
+	    .menu{
+	        text-align: center;
+	        width: 100%;
+	        display: none;
+	        a{
+		        display: block;
+		        border-bottom: 1px solid #EAEAEB;
+		        margin: 0;
+		     
+		    }
+	    }
+	    #toggle:checked + .menu {
+	        display: block;
+	        color: #fff;
+	        border-color: #fff;
+	    }
+	   }
+	} */ }
+
+/*RESPOSNIVE*/
+@media (max-width: 1199.98px) {
+  header .nav .menu a {
+    font-size: 18px; }
+  .contato .form-contato {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+    .contato .form-contato .enviar {
+      margin-right: 0; }
+    .contato .form-contato textarea {
+      width: 100%; }
+    .contato .form-contato .responsavel,
+    .contato .form-contato .nome-crianca,
+    .contato .form-contato .idade,
+    .contato .form-contato .data,
+    .contato .form-contato .local,
+    .contato .form-contato .cidade,
+    .contato .form-contato .email,
+    .contato .form-contato .telefone {
+      width: 49%; }
+  .contato .informacoes .tel p,
+  .contato .informacoes .email p,
+  .contato .informacoes .face p {
+    font-size: 16px;
+    word-break: break-all; }
+  .equipe .texto-equipe p {
+    margin: 0 auto; }
+  .tripularte .img-renata img {
+    top: 120px;
+    width: 100%; }
+  .equipe-page .content-equipe .box {
+    width: 30%; } }
+
+@media (max-width: 991.98px) {
+  header .content-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    header .content-header .logo {
+      margin-top: 30px; }
+      header .content-header .logo img {
+        margin: 0 auto; }
+    header .content-header .nav .menu a {
+      font-size: 18px; }
+  .servicos .container-servicos .tipo-servico {
+    width: 33%; }
+  .bloguinho .container-bloguinho .box {
+    width: 30%; }
+    .bloguinho .container-bloguinho .box img {
+      width: 100%; }
+  .blog-page .content-blog a {
+    display: flex;
+    width: 45%; }
+  .clientes .content-clientes .box {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    height: auto;
+    justify-content: center; }
+  .parceiros .content-parceiros .box {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    height: auto;
+    justify-content: center; }
+  .equipe .img-equipe {
+    display: flex;
+    justify-content: center; }
+  .equipe .texto-equipe p {
+    text-align: center; }
+  .tripularte .container {
+    max-width: 90%; }
+    .tripularte .container .desc p {
+      font-size: 18px;
+      width: 550px; }
+    .tripularte .container .img-renata img {
+      top: 160px;
+      width: 100%; }
+  .servicos-page .pequeno {
+    width: 47%; }
+    .servicos-page .pequeno .servicos-text {
+      width: 100%; }
+      .servicos-page .pequeno .servicos-text .titulo {
+        font-size: 40px; } }
+
+@media (max-width: 767.98px) {
+  header .content-header .nav {
+    display: flex;
+    width: 100%; }
+    header .content-header .nav label {
+      color: #fff;
+      display: block;
+      position: absolute;
+      top: 80px;
+      right: 20px;
+      font-size: 30px; }
+    header .content-header .nav #toggle:checked + .menu-menu-container .menu {
+      display: flex;
+      margin-top: 0;
+      color: #fff;
+      border-color: #fff;
+      width: 100%;
+      flex-direction: column;
+      background-color: #00000030;
+      padding: 0; }
+    header .content-header .nav .menu-menu-container {
+      display: flex;
+      width: 100%; }
+      header .content-header .nav .menu-menu-container .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        margin-top: 50px; }
+        header .content-header .nav .menu-menu-container .menu a {
+          display: block;
+          margin: 0;
+          line-height: 50px;
+          text-decoration: none; }
+          header .content-header .nav .menu-menu-container .menu a:hover {
+            color: #F98E01; }
+  .servicos .container-servicos .tipo-servico {
+    width: 44%; }
+  .avaliacoes .box-avaliacoes #slide-avaliacoes .carousel-inner .carousel-item p {
+    font-size: 18px; }
+  .bloguinho .container-bloguinho .box .text h3 {
+    font-size: 16px; }
+  .clientes .content-clientes .box {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    height: auto;
+    justify-content: center; }
+  .parceiros .content-parceiros .box {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    height: auto;
+    justify-content: center; }
+  .tripularte .container {
+    max-width: 90%; }
+    .tripularte .container .desc p {
+      font-size: 18px; }
+    .tripularte .container .img-renata {
+      display: none; }
+  .equipe-page .content-equipe .box {
+    width: 45%; }
+  .servicos-page .destaque .servicos-text .titulo {
+    font-size: 30px;
+    padding: 40px 0 10px 40px; }
+  .servicos-page .destaque .servicos-text p {
+    padding: 0 20px; }
+  .servicos-page .destaque .video iframe {
+    width: 70%;
+    height: 70%; }
+  .servicos-page .direita {
+    flex-wrap: wrap;
+    width: 100%; }
+    .servicos-page .direita .servicos-text {
+      width: 100%; }
+      .servicos-page .direita .servicos-text .titulo {
+        text-align: center;
+        font-size: 30px;
+        padding: 40px 0 0 0; }
+      .servicos-page .direita .servicos-text p {
+        padding: 0 20px;
+        text-align: center; }
+    .servicos-page .direita .servicos-img {
+      width: 100%;
+      float: none;
+      padding: 0 40px;
+      margin-top: 0; }
+      .servicos-page .direita .servicos-img img {
+        width: 100%;
+        height: auto; }
+  .servicos-page .esquerda {
+    flex-wrap: wrap;
+    width: 100%; }
+    .servicos-page .esquerda .servicos-text {
+      width: 100%;
+      order: 1; }
+      .servicos-page .esquerda .servicos-text .titulo {
+        text-align: center;
+        font-size: 30px;
+        padding: 40px 0 0 0; }
+      .servicos-page .esquerda .servicos-text p {
+        padding: 20px 10px;
+        text-align: center; }
+    .servicos-page .esquerda .servicos-img {
+      width: 100%;
+      float: none;
+      padding: 0 40px;
+      margin-top: 0; }
+      .servicos-page .esquerda .servicos-img img {
+        width: 100%;
+        height: auto;
+        order: 2; }
+  .servicos-page .pequeno {
+    width: 100%; }
+  .single .share p {
+    text-align: center; }
+  .single .share .social {
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px; }
+  .single .content-post img {
+    width: 100%; } }
+
+@media (max-width: 575.98px) {
+  header {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center; }
+  .blog-page .content-blog {
+    justify-content: center; }
+    .blog-page .content-blog a {
+      display: flex;
+      width: 100%; }
+      .blog-page .content-blog a .box {
+        height: auto; }
+        .blog-page .content-blog a .box img {
+          height: auto; }
+  .clientes .content-clientes .box {
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    height: auto;
+    justify-content: center; }
+  .parceiros .content-parceiros .box {
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    height: auto;
+    justify-content: center; }
+  .equipe .img-equipe {
+    padding: 0 20px; }
+    .equipe .img-equipe img {
+      width: 240px;
+      height: 170px;
+      margin: 0 20px; }
+  .equipe .texto-equipe p {
+    font-size: 18px; }
+  .tripularte h2 {
+    padding: 0 20px; }
+  .tripularte .container .desc p {
+    width: 100%; }
+  .equipe-page .content-equipe {
+    justify-content: center; }
+    .equipe-page .content-equipe .box {
+      width: 100%; }
+  .destaque {
+    width: 100%; }
+  .servicos .container-servicos .tipo-servico {
+    width: 70%; }
+  .bloguinho .container-bloguinho {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .bloguinho .container-bloguinho .box {
+      width: 80%; }
+  .contato {
+    padding: 175px 0; }
+  .servicos-page {
+    padding-bottom: 0; }
+    .servicos-page .direita .servicos-img img {
+      width: 210px;
+      height: 158px; }
+    .servicos-page .esquerda .servicos-img img {
+      width: 210px;
+      height: 158px; } }
